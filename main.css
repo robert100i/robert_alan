@@ -385,6 +385,10 @@
         margin: 20px auto 0;
         display: flex;
     }
+
+    .section3 {
+        height: 250px;
+    }
     
     .section3 a {
         width: 335;
