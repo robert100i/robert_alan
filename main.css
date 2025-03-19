@@ -116,6 +116,7 @@
     width: 309px;
     height: 174px;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .info_img {
@@ -357,6 +358,10 @@
         margin: 0 auto 0;
     }
 
+    .skillset {
+        margin-top: 40px;
+    }
+
     .recent_works {
         margin-bottom: 0;
     }
@@ -389,7 +394,7 @@
     }
 
     .img {
-        margin: auto;
+        margin:  auto;
     }
 
     .img img {
