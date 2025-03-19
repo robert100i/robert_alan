@@ -24,7 +24,7 @@
 }
 
 .perfil {
-    max-width: 1440px;
+    max-width: 1000px;
     display: flex;
     margin: auto;
 }
@@ -33,7 +33,7 @@
     width: 350px;
     height: 350px;
     border-radius: 165px;
-    margin: 20px 20px 20px 100px;
+    margin: auto;
 }
 .info_perfil {
     margin-left: 200px;
