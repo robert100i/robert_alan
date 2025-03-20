@@ -10,6 +10,7 @@
     --text2: #fff;
     --background: #fff;
     --bg-header: #C9D4C5;
+    
     --font_18: 18px;
     --font_36: 36px;
     --font_20: 20px;
@@ -417,6 +418,75 @@
 
     .icons {
         display: flex;
+    }
+}
+
+@media (max-width: 340px) {
+    
+    .header {
+        width: 100%;
+        height: 747px;
+        background-color: var(--bg-header);
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .perfil {
+        display: contents;
+        text-align: center;
+    }
+
+    .perfil img {
+        width: 200px;
+        height: 200px;
+        border-radius: 165px;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .info_perfil {
+        max-width: 320px;
+        margin: 20px auto 30px;
+    }
+    
+    .info_perfil p, a {
+        margin: 0 auto;
+        max-width: 310px;
+    }
+    
+    .info_perfil h1 {
+        margin: 10px auto 40px;
+        max-width: 310px;
+        font-size: 70px;
+        line-height: 80px;
+        letter-spacing: -2.17px;
+    }
+
+    .container1 {
+        max-width: 320px;
+    }
+
+    .section1, .section2 {
+        max-width: 300px;
+    }
+
+    .sobre-mim {
+        width: 310px;
+        display: contents;
+        text-align: center;
+    }
+
+    .sobre-mim h2 {
+        max-width: 300px;
+    }
+
+    .info_career {
+        max-width: 300px;
+    }
+
+    .spn {
+        width: 300px;
     }
 }
 
